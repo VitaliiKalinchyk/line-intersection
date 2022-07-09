@@ -1,7 +1,7 @@
 package com.epam.rd.autotasks.intersection;
 
 public class Line {
-    int k,b;
+    private final int k,b;
     public Line(int k, int b) {
         this.k=k;
         this.b=b;
